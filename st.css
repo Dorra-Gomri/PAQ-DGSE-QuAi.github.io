@@ -1,0 +1,336 @@
+.carousel-item
+{
+  height: 550px;
+
+}
+
+#img
+{
+  height: 50px;
+  width: 70px;
+  display: flex;
+}
+
+nav .btn-primary {
+  background-color: #039;
+  color: #fc0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: bold;
+  
+}
+nav
+{ font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #039;
+
+}
+ .navbar 
+{
+  border: 3px #ffffff solid ;
+}
+.n
+{
+  justify-content: flex-start;
+}
+.br 
+{
+  border-right: 0px solid #ffffff;
+  background-color: #ffcc00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #072664;
+  text-align: center;
+  font-size: 50px;
+  height:45%;
+  margin: auto;
+
+  justify-content: center;
+  align-items: initial;
+  margin-block-end: 60px;
+  margin-block-start: 50px;
+
+  padding: 10px;
+  display: flex;
+  width:60%;
+  padding-left: 1px;
+  
+
+}
+
+
+
+.text-white
+{ text-decoration-line: none;
+font-size: 15px;}
+.bb
+{font-size: 20px;}
+row .list-unstyled
+{
+  color: #ffcc00;
+}
+.pt-2
+{font-size: 20px;}
+.row
+{
+  color: #ffcc00;}
+
+#mail
+{
+  margin-left: 10px;
+}
+#btn
+{
+  margin-top: 20px;
+}
+#titre
+{
+  margin-bottom: 20px;
+}
+
+.fa {
+  padding: 17px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #ffcc00;
+  color: #072664;
+}
+.fa-youtube-play{
+  background:#ffcc00;
+  color: #072664;
+}
+.fa-linkedin  {
+  background: #ffcc00;
+  color:#072664;
+}
+#nn 
+{font-size: 18px;}
+
+* {
+  box-sizing: border-box;
+}
+/* Clearfix (clear floats) */
+ #mm {
+  position: initial;
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 40px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 250px;
+  height: 300px;
+  
+}
+* {
+  box-sizing: border-box;
+}
+.cont {
+  content: none;
+  clear: both;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 18px;
+  text-align: center;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 10%;
+  }
+}
+
+#conteneur {
+  position: relative;
+}
+
+/* Bottom right text */
+#text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 13px;
+  border-radius: 5px;
+  background: #039;
+  outline: none;
+  opacity: 0.9;
+  
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background:rgb(110, 101, 101);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ddd;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+#column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: 20px; ; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: relative;
+  height: 320px;
+  
+}
+
+#content {
+  position: static;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #072664;
+  width: 100%;
+  padding: 10px;
+  height: 320px;
+}
+
+ol{
+  counter-reset: li; /* Initiate a counter */
+  list-style: none; /* Remove default numbering *//* Keep using default numbering for IE6/7 */
+  font: 15px 'trebuchet MS', 'lucida sans';
+  padding: 20;
+  margin-bottom: 4em;
+ 
+}
+.rounded-list a{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+  background: #ddd;
+  color: #444;
+  text-decoration: none;
+  border-radius: .3em;
+  
+}
+
+
+
+.rounded-list a:before{
+  text-decoration: none;
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #ddd;
+  height: 2em;
+  width: 2em;
+  line-height: 25px;
+  border: .1em solid #039;
+  text-align: center;
+  border-radius: 1em;
+  
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("php.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#coul {
+  float:left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ligne
+{display: flex;}
+.vol
+{display: flex;
+flex-direction: column;}
+.vol h6 {
+  color: #039;
+  float: left;
+  padding: 8px 16px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: background-olor .5s;
+  border: 1px solid #ffcc00;
+  width: 45px;
+height: 50px; ;}
